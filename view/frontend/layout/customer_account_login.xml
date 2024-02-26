@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Collab CustomerPasswordLessLogin for Magento
+ *
+ * @author      Marcin Jędrzejewski <m.jedrzejewski@collab.pl>
+ * @copyright   Copyright 2024 Collab
+ * @license     Open Source License (OSL v3)
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="customer.login.container">
+            <container name="collab.login.container"
+                       htmlTag="div"
+                       htmlClass="login-container-top"
+                       before="-" />
+        </referenceContainer>
+    </body>
+</page>

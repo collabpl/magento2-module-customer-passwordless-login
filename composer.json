@@ -1,0 +1,33 @@
+{
+    "name": "collab/module-customer-passwordless-login",
+    "version": "1.0.0",
+    "description": "A Magento 2 module which provides service to allow customers to login without a password",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "Marcin Jędrzejewski",
+            "email": "m.jedrzejewski@collab.pl"
+        }
+    ],
+    "homepage": "https://github.com/collabpl/magento2-module-customer-passwordless-login",
+    "keywords": [
+        "magento",
+        "magento2",
+        "oauth service",
+        "login without password"
+    ],
+    "require": {
+        "magento/framework": "*"
+    },
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Collab\\CustomerPasswordLessLogin\\": ""
+        }
+    }
+}
