@@ -1,0 +1,14 @@
+<!--
+/**
+ * @category  Collab
+ * @package   Collab\CustomerPasswordLessLogin
+ * @author    Marcin Jędrzejewski <m.jedrzejewski@collab.pl>
+ * @copyright 2024 Collab
+ * @license   MIT
+ */
+-->
+<form class="form form-quick-login" novalidate="novalidate">
+    <!-- ko foreach: getRegion('quick-login-method') -->
+        <!-- ko template: getTemplate() --><!-- /ko -->
+    <!--/ko-->
+</form>
